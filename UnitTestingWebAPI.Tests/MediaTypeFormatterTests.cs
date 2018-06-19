@@ -52,7 +52,7 @@ namespace UnitTestingWebAPI.Tests
         }
 
         [Test]
-        public async void FormatterShouldBeAbleToDeserializeArticle()
+        public async Task FormatterShouldBeAbleToDeserializeArticle()
         {
             var content = new ObjectContent<Article>(_article, _formatter);
 

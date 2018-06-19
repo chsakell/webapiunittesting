@@ -45,7 +45,7 @@ namespace UnitTestingWebAPI.Tests
 
         #region Tests
         [Test]
-        public async void ShouldAppendCustomHeader()
+        public async Task ShouldAppendCustomHeader()
         {
             var invoker = new HttpMessageInvoker(_headerAppenderHandler);
             var result = await invoker.SendAsync(new HttpRequestMessage(HttpMethod.Get, 
