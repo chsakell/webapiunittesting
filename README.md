@@ -1,5 +1,7 @@
 # ASP.NET Web API Unit Testing
 
+[![License](https://img.shields.io/github/license/chsakell/webapiunittesting.svg)](https://github.com/chsakell/webapiunittesting/blob/master/licence)
+
 Blog post: <a href="http://t.co/hJK2Uxwda6">ASP.NET Web API Unit Testing</a>
 
 <h3 style="font-weight:normal;">Follow chsakell's Blog</h3>
